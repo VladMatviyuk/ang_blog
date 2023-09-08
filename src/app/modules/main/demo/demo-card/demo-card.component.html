@@ -1,0 +1,13 @@
+<div class="cursor-pointer w-4/5 m-auto">
+  <h1 class="text-4xl font-bold my-12 hover:text-pink-700 ease-in duration-150 ">{{data.title}}</h1>
+
+  <section *ngIf="data.img" class="my-8">
+    <img class="object-cover h-72 w-full hover:border-8 border-pink-700 ease-in duration-100 " [src]="data.img" alt="img">
+  </section>
+
+  <div class="text-xl">{{data.desc}}</div>
+
+  <app-button></app-button>
+</div>
+
+<hr>

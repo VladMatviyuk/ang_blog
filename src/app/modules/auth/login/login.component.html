@@ -1,0 +1,12 @@
+<form class="flex flex-col items-center justify-center" [formGroup]="form_data">
+  <p class="m-4">
+    <label>Email:</label>
+    <input type="text" name="email" placeholder="email" class="border" required formControlName="email">
+  </p>
+  <p class="m-4">
+    <label>Password:</label>
+    <input type="email" name="password" class="border" required formControlName="password">
+  </p>
+  <button type="submit" class="border p-1 m-4" (click)="login()">Отправить</button>
+</form>
+

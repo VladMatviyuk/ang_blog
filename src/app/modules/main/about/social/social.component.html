@@ -1,0 +1,10 @@
+<div>
+  <h2 class="my-4 font-bold text-2xl">Также я:</h2>
+  <div>
+    <ul class="flex">
+      <li *ngFor="let link of links" class="mx-1">
+        <app-link-icon [options]="link"></app-link-icon>
+      </li>
+    </ul>
+  </div>
+</div>

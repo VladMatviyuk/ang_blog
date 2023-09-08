@@ -1,0 +1,9 @@
+:where(hr) {
+  border: none;
+  border-top: 3px dashed black;
+  margin: calc(5*1rem)0;
+}
+
+img:hover {
+  box-shadow: 0.5rem 0.5rem 0 0 black;
+}

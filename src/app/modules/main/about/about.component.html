@@ -1,0 +1,23 @@
+<header class="flex justify-start items-center h-96 w-screen">
+  <div class="text-xl w-96 ">
+    <ul>
+      <li class="text text-first">Web-разработчик</li>
+      <li class="text text-first">Иногда пишу об этом</li>
+    </ul>
+  </div>
+</header>
+<hr>
+<main>
+  <div>
+    <app-social></app-social>
+  </div>
+  <hr>
+  <div>
+    <app-experience></app-experience>
+  </div>
+  <hr>
+  <div>
+    <h2 class="my-4 font-bold text-2xl">Последний пост:</h2>
+    <app-blog-card [data]="lastBlog[0]"></app-blog-card>
+  </div>
+</main>
